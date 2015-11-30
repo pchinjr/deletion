@@ -1,0 +1,7 @@
+.form-control {
+        font-size: 24px;
+        border-style: none;
+        overflow: auto;
+        outline: none;
+        resize: none;
+}
