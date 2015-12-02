@@ -5,12 +5,10 @@ $('#content').on('keyup', function(){
   var splitt = entry.split("");
   characters = splitt;
   removeTimer.play();
-  console.log("play")
 });
 
 $('#content').on('keypress', function(){
   removeTimer.stop();
-  console.log("stop");
 });
 
 var removeTimer = $.timer( function() {
