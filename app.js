@@ -7,6 +7,10 @@ $('#content').on('keyup', function(){
   removeTimer.play();
 });
 
+$('#content').on('keydown', function(){
+  removeTimer.pause();
+});
+
 var removeTimer = $.timer( function() {
   characters.shift(); //removes first element from array
   $('#content').val( characters.join("") );
