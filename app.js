@@ -8,7 +8,7 @@ $('#content').on('keyup', function(){
 });
 
 $('#content').on('keypress', function(){
-  removeTimer.pause();
+  removeTimer.reset();
 });
 
 var removeTimer = $.timer( function() {
