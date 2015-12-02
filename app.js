@@ -7,7 +7,7 @@ $('#content').on('keyup', function(){
   removeTimer.play();
 });
 
-$('#content').on('keydown', function(){
+$('#content').on('keypress', function(){
   removeTimer.pause();
 });
 
